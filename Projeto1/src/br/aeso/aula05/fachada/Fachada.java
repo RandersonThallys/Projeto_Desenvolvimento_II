@@ -7,11 +7,12 @@ public class Fachada {
 	
 private ControladorCliente  controladorCliente;
 	
-	public Fachada(){}
+	private Fachada(){}
 		
 	
 	
-	public void cadastrarCliente(Cliente cliente) {}    
+	
+	public void cadastrarCliente(ControladorCliente ControladorCliente) {}    
 	
 	public void atualizarCliente(Cliente cliente) {}
 	
